@@ -1,0 +1,112 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: thin solid black;
+}
+.logo {
+  display: inline-flex;
+  align-items: center;
+}
+.logo span {
+  padding: 10px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+}
+.navigation {
+  display: inline-flex;
+  flex-direction: row;
+}
+.navigation p {
+  padding: 10px;
+  text-decoration: underline;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.column.large {
+  display: inline-flex;
+  width: 630px;
+  border: thin solid black;
+  flex-direction: column;
+  justify-content:
+}
+.head-story .image-content {
+  display: inline-flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  width: 630px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+.orca-story {
+  display: inline-flex;
+}
+.burger-story {
+  display: inline-flex;
+}
+.earth-story {
+  display: inline-flex;
+}
+.earth-story .image-content {
+  background-image: url();
+  height: 150px;
+  width: 150px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.camera-story {
+  display: inline-flex;
+}
+.camera-story .image-content {
+  background-image: url();
+  height: 150px;
+  width: 150px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.column.medium {
+  display: inline-flex;
+  width: 300px;
+  border: thin solid black;
+  flex-direction: column;
+}
+.spy-story {
+  display: inline-flex;
+}
+.cat-story {
+  display: inline-flex;
+}
+.cat-story .image-content {
+  display: inline-flex;
+  background-image: url();
+  width: 300px;
+  height 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.column.small {
+  display: inline-flex;
+  width: 240px;
+  border: thin solid black;
+  flex-direction: column;
+}
+.news-bites {
+  display: inline-flex;
+}
+.news-bites-list {
+  display: inline-flex;
+}
+.news-bites-list p {
+  border-top: thin solid black;
+}
