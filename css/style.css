@@ -79,10 +79,10 @@
   flex-direction: column;
 }
 .spy-story {
-  display: inline-flex;
+  display: flex;
 }
 .cat-story {
-  display: inline-flex;
+  display: flex;
 }
 .cat-story .image-content {
   display: inline-flex;
@@ -99,12 +99,4 @@
   width: 240px;
   border: thin solid black;
   flex-direction: column;
-}
-.news-bites {
-  display: inline-flex;
-}
-.news-bites-list {
-  display: inline-flex;
-}
-.news-bites-list p {
 }
